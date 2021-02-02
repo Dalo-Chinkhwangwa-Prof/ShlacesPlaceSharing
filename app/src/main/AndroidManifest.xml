@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:name=".ShlacesApplication"
         android:theme="@style/Theme.ShlacesSharePlaces">
-        <activity android:name=".ProfileActivity"></activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".view.ui.activity.ProfileActivity"></activity>
+        <activity android:name=".view.ui.activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

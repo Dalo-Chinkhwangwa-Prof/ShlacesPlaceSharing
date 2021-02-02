@@ -1,4 +1,4 @@
-package com.americanairlines.shlaces_shareplaces
+package com.americanairlines.shlaces_shareplaces.view.ui.fragment
 
 import android.content.Context
 import android.os.Bundle
@@ -7,10 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.americanairlines.shlaces_shareplaces.R
 import com.americanairlines.shlaces_shareplaces.model.NewUser
+import com.americanairlines.shlaces_shareplaces.view.ui.activity.LoginActivity
 
 class SignUpFragment : Fragment() {
 

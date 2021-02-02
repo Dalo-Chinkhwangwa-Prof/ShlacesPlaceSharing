@@ -1,4 +1,4 @@
-package com.americanairlines.shlaces_shareplaces
+package com.americanairlines.shlaces_shareplaces.view.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,12 +7,16 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.americanairlines.shlaces_shareplaces.R
 import com.americanairlines.shlaces_shareplaces.model.NewUser
+import com.americanairlines.shlaces_shareplaces.view.ui.fragment.SignUpFragment
 import com.google.firebase.auth.FirebaseAuth
 
-class LoginActivity : AppCompatActivity(), SignUpFragment.SignUpDelegate {
+class LoginActivity : AppCompatActivity(),
+    SignUpFragment.SignUpDelegate {
 
-    private val signUpFragment: SignUpFragment = SignUpFragment()
+    private val signUpFragment: SignUpFragment =
+        SignUpFragment()
 
     private lateinit var userNameEditText: EditText
     private lateinit var passwordEditText: EditText
