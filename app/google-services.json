@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "823578896285",
+    "project_id": "shlaces-share-places-79d3f",
+    "storage_bucket": "shlaces-share-places-79d3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823578896285:android:3d35bba9097f0ed1d87174",
+        "android_client_info": {
+          "package_name": "com.americanairlines.shlaces_shareplaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823578896285-nbatlj5hlvgcbj7m8jgmclsh8feo1rqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.americanairlines.shlaces_shareplaces",
+            "certificate_hash": "13dfcbbf3abcc07bb4946ca300975ad6d5366012"
+          }
+        },
+        {
+          "client_id": "823578896285-tjknuv6ptee4mdc539hll9968ksh6pk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYfIjKb5Qp7iYc9ub3puxM_RIGHpO9aHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823578896285-tjknuv6ptee4mdc539hll9968ksh6pk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
