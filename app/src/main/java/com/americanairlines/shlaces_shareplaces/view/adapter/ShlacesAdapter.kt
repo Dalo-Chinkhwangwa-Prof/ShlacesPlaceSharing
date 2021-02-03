@@ -7,9 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.americanairlines.shlaces_shareplaces.R
-import com.americanairlines.shlaces_shareplaces.model.Shlace
+import com.americanairlines.shlaces_shareplaces.model.data.Shlace
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.request.RequestOptions
 
 class ShlacesAdapter(private var shlacesList: List<Shlace>) :

@@ -10,7 +10,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.americanairlines.shlaces_shareplaces.R
-import com.americanairlines.shlaces_shareplaces.model.NewUser
+import com.americanairlines.shlaces_shareplaces.model.data.NewUser
 import com.americanairlines.shlaces_shareplaces.view.ui.activity.LoginActivity
 
 class SignUpFragment : Fragment() {
@@ -51,7 +51,11 @@ class SignUpFragment : Fragment() {
 
         signUpButton.setOnClickListener {
             if (checkInput()) {
-                val newUser = NewUser(usernameEditText.text.toString().trim(), passwordEditText.text.toString().trim())
+                val newUser =
+                    NewUser(
+                        usernameEditText.text.toString().trim(),
+                        passwordEditText.text.toString().trim()
+                    )
                 signUpDelegate.signUpNewUser(newUser)
                 clearTextFields()
                 fragmentManager?.popBackStack()

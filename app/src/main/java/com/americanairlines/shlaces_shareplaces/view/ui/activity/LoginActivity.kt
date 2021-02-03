@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import com.americanairlines.shlaces_shareplaces.R
-import com.americanairlines.shlaces_shareplaces.model.NewUser
+import com.americanairlines.shlaces_shareplaces.model.data.NewUser
 import com.americanairlines.shlaces_shareplaces.view.ui.fragment.SignUpFragment
 import com.google.firebase.auth.FirebaseAuth
 
